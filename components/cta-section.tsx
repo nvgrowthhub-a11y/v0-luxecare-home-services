@@ -19,7 +19,7 @@ export function CTASection({ onBookClick }: { onBookClick: () => void }) {
             Ready to Get Your Appliances Fixed?
           </h2>
           <p className="text-lg text-muted-foreground mb-8 text-pretty">
-            Book a service now and get your home appliances repaired by expert technicians. Same-day service available!
+            Book a service now and get your home appliances repaired by expert technicians in Dubai. Same-day service available across all Dubai areas!
           </p>
           <Button
             onClick={onBookClick}

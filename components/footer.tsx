@@ -23,7 +23,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-background/70 mb-6 text-pretty">
-              Your trusted partner for all home appliance repair and maintenance services. Fast, reliable, and affordable.
+              Your trusted partner for all home appliance repair and maintenance services in Dubai. Fast, reliable, and professional service across all Dubai areas.
             </p>
             <div className="flex gap-4">
               <a
@@ -43,10 +43,10 @@ export function Footer() {
             <h4 className="font-semibold text-lg mb-4">Our Services</h4>
             <ul className="space-y-3">
               {[
-                "AC Repair & Service",
-                "Fridge Repair",
-                "Washing Machine Service",
-                "Home Appliance Repair",
+                "AC Repair Dubai",
+                "Fridge Repair Dubai",
+                "Washing Machine Service Dubai",
+                "Home Appliance Repair Dubai",
               ].map((service) => (
                 <li key={service}>
                   <Link href="#services" className="text-background/70 hover:text-primary transition-colors">
@@ -101,8 +101,8 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-background/70">Service Area</p>
-                  <p>Pan India Doorstep Service</p>
+                  <p className="text-background/70">Location</p>
+                  <p>Dubai, UAE - All Areas Covered</p>
                 </div>
               </li>
             </ul>

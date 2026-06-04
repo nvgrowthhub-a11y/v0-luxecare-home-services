@@ -45,10 +45,10 @@ export function AboutSection() {
               Who We Are
             </h2>
             <p className="text-lg text-muted-foreground mb-8 text-pretty">
-              We are a professional home appliance service company providing fast, reliable and affordable repair solutions at your doorstep. With over 10 years of experience, our certified technicians deliver quality service you can trust.
+              We are Dubai&apos;s leading home appliance service company providing fast, reliable and professional repair solutions at your doorstep. With over 10 years of experience serving Dubai residents, our certified technicians deliver quality service you can trust.
             </p>
             <p className="text-muted-foreground mb-8 text-pretty">
-              Our mission is to make home appliance repairs hassle-free. We understand the inconvenience of a broken appliance, which is why we offer same-day service and transparent pricing with no hidden charges.
+              Our mission is to make home appliance repairs hassle-free across Dubai. We understand the inconvenience of a broken appliance in Dubai&apos;s climate, which is why we offer same-day service and transparent pricing with no hidden charges.
             </p>
 
             <div className="grid grid-cols-2 gap-6">

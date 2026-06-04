@@ -7,29 +7,29 @@ import { Button } from "@/components/ui/button"
 const services = [
   {
     icon: Snowflake,
-    title: "AC Repair & Service",
-    description: "Expert AC repair, gas refilling, cleaning & installation services for all brands and models.",
+    title: "AC Repair Dubai",
+    description: "Expert AC repair, gas refilling, cleaning & installation services for all brands in Dubai.",
     color: "bg-blue-50 text-blue-600",
     value: "AC Repair",
   },
   {
     icon: Refrigerator,
-    title: "Fridge Repair & Maintenance",
-    description: "Professional refrigerator repair for single door, double door, and side-by-side fridges.",
+    title: "Fridge Repair Dubai",
+    description: "Professional refrigerator repair for single door, double door, and side-by-side fridges in Dubai.",
     color: "bg-cyan-50 text-cyan-600",
     value: "Fridge Repair",
   },
   {
     icon: WashingMachine,
-    title: "Washing Machine Service",
-    description: "Complete washing machine repair for front load, top load, and semi-automatic models.",
+    title: "Washing Machine Dubai",
+    description: "Complete washing machine repair for front load, top load, and semi-automatic models in Dubai.",
     color: "bg-indigo-50 text-indigo-600",
     value: "Washing Machine",
   },
   {
     icon: Wrench,
-    title: "Home Appliance Full Repair",
-    description: "Comprehensive repair services for all your home appliances including geyser, microwave & more.",
+    title: "Home Appliance Repair",
+    description: "Comprehensive repair services for all your home appliances including geyser, microwave & more in Dubai.",
     color: "bg-primary/10 text-primary",
     value: "Other",
   },
@@ -50,10 +50,10 @@ export function ServicesSection({ onBookService }: { onBookService: (service: st
             Our Services
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-            Professional Home Appliance Services
+            Best Home Appliance Services in Dubai
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            We provide expert repair and maintenance services for all major home appliances with guaranteed satisfaction.
+            We provide expert repair and maintenance services for all major home appliances across Dubai with guaranteed satisfaction.
           </p>
         </motion.div>
 

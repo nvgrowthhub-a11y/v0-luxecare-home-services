@@ -166,7 +166,7 @@ _Sent from NearMe Service Website_`
                       value={formData.address}
                       onChange={(e) => setFormData({ ...formData, address: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                      placeholder="Enter your full address"
+                      placeholder="Enter your Dubai area/location"
                     />
                   </div>
 

@@ -6,34 +6,34 @@ import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Rahul Sharma",
-    location: "Mumbai",
+    name: "Ahmed Al Maktoum",
+    location: "Dubai Marina",
     rating: 5,
-    review: "Excellent service! The technician arrived on time and fixed my AC within an hour. Very professional and affordable. Highly recommended!",
+    review: "Excellent service! The technician arrived on time and fixed my AC within an hour. Very professional and affordable. Best AC repair service in Dubai!",
   },
   {
-    name: "Priya Patel",
-    location: "Delhi",
+    name: "Sarah Johnson",
+    location: "Downtown Dubai",
     rating: 5,
-    review: "My washing machine was making strange noises. The NearMe Service team diagnosed and fixed the issue quickly. Great customer service!",
+    review: "My washing machine was making strange noises. The NearMe Service team diagnosed and fixed the issue quickly. Great customer service in Dubai!",
   },
   {
-    name: "Amit Kumar",
-    location: "Bangalore",
+    name: "Mohammed Al Rashid",
+    location: "JBR Dubai",
     rating: 5,
-    review: "Best fridge repair service I have ever used. The technician was knowledgeable and explained everything clearly. Fair pricing too!",
+    review: "Best fridge repair service in Dubai. The technician was knowledgeable and explained everything clearly. Fair pricing too!",
   },
   {
-    name: "Sneha Reddy",
-    location: "Hyderabad",
+    name: "Fatima Hassan",
+    location: "Palm Jumeirah",
     rating: 5,
-    review: "Booked through WhatsApp and got same-day service. The technician was very courteous and skilled. Will definitely use again!",
+    review: "Booked through WhatsApp and got same-day service. The technician was very courteous and skilled. Highly recommend for Dubai residents!",
   },
   {
-    name: "Vikram Singh",
-    location: "Chennai",
+    name: "John Smith",
+    location: "Business Bay Dubai",
     rating: 5,
-    review: "Outstanding experience! They repaired my microwave which other technicians said could not be fixed. True experts at work!",
+    review: "Outstanding experience! They repaired my microwave which other technicians said could not be fixed. True experts in Dubai!",
   },
 ]
 
@@ -76,7 +76,7 @@ export function TestimonialsSection() {
             What Our Customers Say
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Join thousands of satisfied customers who trust NearMe Service for their home appliance needs.
+            Join thousands of satisfied customers in Dubai who trust NearMe Service for their home appliance needs.
           </p>
         </motion.div>
 

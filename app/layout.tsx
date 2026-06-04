@@ -9,9 +9,15 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'NearMe Service | Premium Home Appliance Repair',
-  description: 'Fast, Trusted & Professional Home Appliance Care. Expert AC, Fridge, Washing Machine repair services at your doorstep by certified technicians.',
-  keywords: ['home appliance repair', 'AC repair', 'fridge repair', 'washing machine service', 'doorstep service'],
+  title: 'NearMe Service Dubai | Best AC Repair, Fridge Repair & Home Appliance Service in Dubai',
+  description: 'Best home appliance repair service in Dubai. AC repair Dubai, Fridge repair Dubai, Washing machine service Dubai. Fast same-day doorstep service by certified technicians. Call now!',
+  keywords: ['AC repair Dubai', 'Fridge repair Dubai', 'Washing machine repair Dubai', 'Home appliance repair Dubai', 'AC service near me Dubai', 'Refrigerator repair Dubai', 'Best AC technician Dubai', 'Appliance repair service Dubai', 'Same day AC repair Dubai', 'Emergency appliance repair Dubai'],
+  openGraph: {
+    title: 'NearMe Service Dubai | Best Home Appliance Repair',
+    description: 'Professional AC, Fridge & Washing Machine repair service in Dubai. Same-day doorstep service by certified technicians.',
+    locale: 'en_AE',
+    type: 'website',
+  },
 }
 
 export const viewport: Viewport = {

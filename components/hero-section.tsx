@@ -46,7 +46,7 @@ export function HeroSection({ onBookClick, onViewServices }: { onBookClick: () =
               className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full mb-6"
             >
               <CheckCircle className="w-4 h-4" />
-              <span className="text-sm font-medium">Trusted by 5000+ Customers</span>
+              <span className="text-sm font-medium">Trusted by 5000+ Dubai Customers</span>
             </motion.div>
 
             <motion.h1
@@ -55,8 +55,8 @@ export function HeroSection({ onBookClick, onViewServices }: { onBookClick: () =
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 text-balance"
             >
-              Expert Home Appliance Service{" "}
-              <span className="text-primary">at Your Doorstep</span>
+              Best Home Appliance Repair{" "}
+              <span className="text-primary">Service in Dubai</span>
             </motion.h1>
 
             <motion.p
@@ -65,7 +65,7 @@ export function HeroSection({ onBookClick, onViewServices }: { onBookClick: () =
               transition={{ delay: 0.4 }}
               className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 text-pretty"
             >
-              AC, Fridge, Washing Machine & All Home Appliances Repair by Certified Technicians. Fast, Reliable & Affordable.
+              AC Repair, Fridge Repair, Washing Machine & All Home Appliances Service across Dubai. Same-day doorstep service by certified technicians.
             </motion.p>
 
             <motion.div
@@ -107,7 +107,7 @@ export function HeroSection({ onBookClick, onViewServices }: { onBookClick: () =
               ].map((stat, index) => (
                 <div key={index} className="text-center lg:text-left">
                   <p className="text-2xl md:text-3xl font-bold text-primary">{stat.value}</p>
-                  <p className="text-sm text-muted-foreground">{stat.label}</p>
+                  <p className="text-sm text-muted-foreground">{stat.label} in Dubai</p>
                 </div>
               ))}
             </motion.div>
