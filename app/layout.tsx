@@ -9,12 +9,28 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'NearMe Service Dubai | Best AC Repair, Fridge Repair & Home Appliance Service in Dubai',
-  description: 'Best home appliance repair service in Dubai. AC repair Dubai, Fridge repair Dubai, Washing machine service Dubai. Fast same-day doorstep service by certified technicians. Call now!',
-  keywords: ['AC repair Dubai', 'Fridge repair Dubai', 'Washing machine repair Dubai', 'Home appliance repair Dubai', 'AC service near me Dubai', 'Refrigerator repair Dubai', 'Best AC technician Dubai', 'Appliance repair service Dubai', 'Same day AC repair Dubai', 'Emergency appliance repair Dubai'],
+  title: 'AC Repair Dubai | 24/7 Emergency AC Repair & Maintenance Services',
+
+  description:
+    'Professional AC Repair Dubai services. 24/7 emergency AC repair, AC maintenance, AC installation and AC gas refilling across Dubai. Same-day service by certified technicians.',
+
+  keywords: [
+    'AC Repair Dubai',
+    'Emergency AC Repair Dubai',
+    'AC Maintenance Dubai',
+    'AC Installation Dubai',
+    'AC Gas Refill Dubai',
+    'Split AC Repair Dubai',
+    'Central AC Repair Dubai',
+    '24/7 AC Repair Dubai',
+    'AC Technician Dubai',
+    'Best AC Repair Dubai'
+  ],
+
   openGraph: {
-    title: 'NearMe Service Dubai | Best Home Appliance Repair',
-    description: 'Professional AC, Fridge & Washing Machine repair service in Dubai. Same-day doorstep service by certified technicians.',
+    title: 'AC Repair Dubai | Professional AC Repair Services',
+    description:
+      'Fast and affordable AC repair, maintenance and installation services across Dubai. Available 24/7.',
     locale: 'en_AE',
     type: 'website',
   },
