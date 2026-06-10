@@ -1,4 +1,4 @@
-import { internalLinks } from "@/lib/internalLinks"
+import { internalLinks } from "../lib/internalLinks"
 
 export const metadata = {
   title: "AC Repair Dubai | 24/7 Emergency AC Repair Services",
