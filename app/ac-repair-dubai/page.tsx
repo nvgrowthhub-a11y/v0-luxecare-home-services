@@ -4,7 +4,7 @@ export const metadata = {
   title: "AC Repair Dubai | 24/7 Emergency AC Repair Services",
   description:
     "Professional AC Repair Dubai services. Same-day AC repair, maintenance and installation across Dubai.",
-};
+}
 
 export default function ACRepairPage() {
   return (
@@ -31,18 +31,18 @@ export default function ACRepairPage() {
         <li>AC Installation</li>
       </ul>
 
-      {/* 🔥 INTERNAL LINKS SECTION (IMPORTANT SEO BOOST) */}
+      {/* Related Services */}
       <h2>Related Services</h2>
 
       <div>
-        {internalLinks.acRepair.map((item, index) => (
+        {internalLinks?.acRepair?.map((item, index) => (
           <a
             key={index}
             href={item.url}
             style={{
               display: "block",
               margin: "8px 0",
-              color: "blue",
+              color: "#2563eb",
               textDecoration: "underline",
             }}
           >
@@ -52,5 +52,5 @@ export default function ACRepairPage() {
       </div>
 
     </main>
-  );
+  )
 }
