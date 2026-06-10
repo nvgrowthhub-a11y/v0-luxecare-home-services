@@ -65,9 +65,9 @@ export function HeroSection({ onBookClick, onViewServices }: { onBookClick: () =
               transition={{ delay: 0.4 }}
               className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 text-pretty"
             >
-             Professional AC Repair Dubai services for homes and businesses.
-We provide AC maintenance, AC installation, fridge repair,
-washing machine repair and emergency AC repair services across Dubai.
+             NearMe Service provides professional Home Appliance Repair Dubai services including AC Repair Dubai, AC Maintenance Dubai, AC Installation Dubai, 
+              Fridge Repair Dubai, Washing Machine Repair Dubai, Dishwasher Repair Dubai, Dryer Repair Dubai and Oven Repair Dubai.
+              Our certified technicians offer same-day doorstep service across Dubai.
             </motion.p>
 
             <motion.div
