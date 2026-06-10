@@ -28,12 +28,16 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: 'AC Repair Dubai | Professional AC Repair Services',
-    description:
-      'Fast and affordable AC repair, maintenance and installation services across Dubai. Available 24/7.',
-    locale: 'en_AE',
-    type: 'website',
-  },
+  title: 'AC Repair Dubai | Professional AC Repair Services',
+  description:
+    'Fast and affordable AC repair, maintenance and installation services across Dubai. Available 24/7.',
+  locale: 'en_AE',
+  type: 'website',
+},
+
+verification: {
+  google: 'PTpII9vK4ZnDkUiBaOe0sjCyz-U7beNQieXoIhMOdsY',
+},
 }
 
 export const viewport: Viewport = {
