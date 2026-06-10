@@ -1,49 +1,51 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://nearmeservice.org'
+
   return [
     {
-      url: 'https://nearmeservice.org',
+      url: baseUrl,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/ac-repair-dubai',
+      url: `${baseUrl}/ac-repair-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/ac-maintenance-dubai',
+      url: `${baseUrl}/ac-maintenance-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/ac-installation-dubai',
+      url: `${baseUrl}/ac-installation-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/fridge-repair-dubai',
+      url: `${baseUrl}/fridge-repair-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/washing-machine-repair-dubai',
+      url: `${baseUrl}/washing-machine-repair-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/dishwasher-repair-dubai',
+      url: `${baseUrl}/dishwasher-repair-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/dryer-repair-dubai',
+      url: `${baseUrl}/dryer-repair-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/oven-repair-dubai',
+      url: `${baseUrl}/oven-repair-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/cooking-range-repair-dubai',
+      url: `${baseUrl}/cooking-range-repair-dubai`,
       lastModified: new Date(),
     },
     {
-      url: 'https://nearmeservice.org/home-appliance-repair-dubai',
+      url: `${baseUrl}/home-appliance-repair-dubai`,
       lastModified: new Date(),
     },
   ]
