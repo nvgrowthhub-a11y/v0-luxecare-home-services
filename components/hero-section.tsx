@@ -55,8 +55,8 @@ export function HeroSection({ onBookClick, onViewServices }: { onBookClick: () =
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 text-balance"
             >
-              Best Home Appliance Repair{" "}
-              <span className="text-primary">Service in Dubai</span>
+             Same-Day Home Appliance Repair Dubai –
+              <span className="text-primary">AC Repair, Fridge Repair & Washing Machine Service</span>
             </motion.h1>
 
             <motion.p
@@ -65,7 +65,9 @@ export function HeroSection({ onBookClick, onViewServices }: { onBookClick: () =
               transition={{ delay: 0.4 }}
               className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 text-pretty"
             >
-              AC Repair, Fridge Repair, Washing Machine & All Home Appliances Service across Dubai. Same-day doorstep service by certified technicians.
+             Professional AC Repair Dubai services for homes and businesses.
+We provide AC maintenance, AC installation, fridge repair,
+washing machine repair and emergency AC repair services across Dubai.
             </motion.p>
 
             <motion.div
